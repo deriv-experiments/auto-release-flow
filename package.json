@@ -1,6 +1,6 @@
 {
   "name": "@markwylde-deriv/auto-release-flow",
-  "private": "false",
+  "private": false,
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
