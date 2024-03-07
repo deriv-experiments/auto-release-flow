@@ -32,8 +32,6 @@ jobs:
         run: npm clean-install
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
-      - name: Prepublish
-        run: npm run prepublish
       - name: Release
         if: success()
         env:
